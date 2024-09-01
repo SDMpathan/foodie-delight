@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  width: 80%;
+  margin: 1rem 0;
+}
+
+.title {
+  width: 80%;
+  font-size: 2rem;
+  text-align: center;
+  color: #30a535;
+  padding: 0.5rem;
+  border-bottom: solid 1px;
+}

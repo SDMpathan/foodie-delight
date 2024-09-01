@@ -1,0 +1,10 @@
+
+<div class="main">
+  <div class="title">
+    {{title}}
+  </div>
+  <div class="block">
+    <app-restaurant-form [selectedRestaurant]="selectedRestaurant" (formSubmit)="onFormSubmit()"></app-restaurant-form>
+    <app-restaurant-list (editRestaurant)="onEditRestaurant($event)"></app-restaurant-list>
+  </div>
+</div>
